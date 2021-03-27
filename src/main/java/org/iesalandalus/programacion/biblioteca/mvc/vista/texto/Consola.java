@@ -79,7 +79,7 @@ public class Consola {
 			int numPaginas = Entrada.entero();
 			libro = new LibroEscrito(titulo, autor, numPaginas);
 		} else if (tipoLibroLeido == 2) {
-			System.out.print("Introduce la duración del audiolibro: ");
+			System.out.print("Introduce la duración del audiolibro en minutos: ");
 			int duracion = Entrada.entero();
 			libro = new AudioLibro(titulo, autor, duracion);
 		}
