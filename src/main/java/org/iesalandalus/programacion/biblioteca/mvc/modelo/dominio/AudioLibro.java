@@ -7,7 +7,7 @@ public class AudioLibro extends Libro {
 	private static final int MINUTOS_PARA_RECOMPENSA = 15;
 	private static final float PUNTOS_PREMIO = 0.25f;
 
-	private int duracion;
+	private int duracion; // minutos
 
 	public AudioLibro(String titulo, String autor, int duracion) {
 		super(titulo, autor);
